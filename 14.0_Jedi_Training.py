@@ -6,3 +6,11 @@ import the Box Class into your main program. No need to pull request this. Just 
 it to work. Use if __name__ =="__main__":
 
 '''
+from Box_Builder import Ball
+
+if __name__=="__main__":
+    Ball
+    print("Box_builder is being run directly")
+else:
+    Ball
+    print("Box_builder is being run imported")
