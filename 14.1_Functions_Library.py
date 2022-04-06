@@ -6,3 +6,11 @@ In this program you will put the inputs and function calls.
 Use the import * so you don't have to use namespaces for each function call. 
 Use if __name__ =="__main__":
 '''
+from my_library import *
+
+if __name__=="__main__":
+    Fibonacci()
+    mini(3,4,6)
+    box(3,6)
+    increase()
+    count_to_ten()
